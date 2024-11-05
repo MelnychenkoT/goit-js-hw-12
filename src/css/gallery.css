@@ -1,0 +1,33 @@
+.gallery {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .photo-card {
+    border: 1px solid #808080;
+    max-width: 360px;
+    text-align: center;
+  }
+  
+  .info {
+    display: flex;
+  }
+  
+  .info-item {
+    margin: 0 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+  }
+
+  b {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+  }
+  
+  .iziToast-capsule {
+    text-align: right;
+  }

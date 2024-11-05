@@ -1,0 +1,54 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./loader.css');
+@import url('./gallery.css');
+
+
+#search-form {
+  text-align: center;
+  margin: 0px auto 50px;
+}
+
+input {
+  padding: 4px 8px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #e4f6f7;
+  margin-right: 8px;
+}
+
+input:hover {
+  border: 1px solid #000;
+}
+
+input:active {
+  border: 1px solid #4e75ff;
+}
+
+button {
+  padding: 4px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4E75FF;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #6C8CFF;
+}
+
+
+
+
+

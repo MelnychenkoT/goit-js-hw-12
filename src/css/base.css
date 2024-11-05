@@ -1,0 +1,18 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  color: #242424;
+  background-color: rgba(210, 184, 238, 0.87);
+}
