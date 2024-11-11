@@ -3,6 +3,17 @@
   visibility: hidden;
 } 
 
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.load-more {
+  min-width: 125px;
+}
+
 .loader {
   width: 10px;
   height: 10px;

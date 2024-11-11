@@ -9,13 +9,13 @@ p:last-child {
   margin-bottom: 0;
 }
 
-
 button {
   cursor: pointer;
+  font-family: inherit;
 }
 
 img {
   display: block;
-  width: 360px;
-  height: 200px;
+  max-width: 100%;
+  height: auto;
 }
